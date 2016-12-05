@@ -40,4 +40,5 @@ hs_err_pid*
 # Mongo Explorer plugin:
 .idea/mongoSettings.xml
 
+/.gitignore
 *.iml
