@@ -16,9 +16,9 @@ public class MainApp {
      */
     public static void main(String... args) throws Exception {
 
-        // Sorting of parallel produce mixed parts
+        new Numbers().run();
 
-        new Java8Sort().sort();
+
     }
 
 
