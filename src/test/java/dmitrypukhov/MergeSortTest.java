@@ -13,7 +13,7 @@ public class MergeSortTest {
 
     @Test
     public void testSort_3elements() throws Exception {
-        System.out.println("Test");
+        System.out.println("MergeSortTest");
 
         int[] unsorted = new int[] {3,2,1};
         System.out.printf("Unsorted: %s", Arrays.toString(unsorted)).println();
