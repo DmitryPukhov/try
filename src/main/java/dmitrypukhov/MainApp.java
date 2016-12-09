@@ -16,18 +16,11 @@ public class MainApp {
      */
     public static void main(String... args) throws Exception {
 
-        IntStream arr = new Random().ints(100,0,100);
-        arr.parallel().sorted().sequential().forEach(i -> {
-            System.out.printf("%d;", i);
-        });
+        // Sorting of parallel produce mixed parts
 
-
-        int[] unsorted = new int[] {3,2,1};
-        System.out.printf("Unsorted: %s", Arrays.toString(unsorted)).println();
-
-        int[] sorted = new MergeSort().sort(unsorted);
-        System.out.printf("Sorted: %s", Arrays.toString(sorted)).println();
+        new Java8Sort().sort();
     }
+
 
 }
 
